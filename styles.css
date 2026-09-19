@@ -308,22 +308,16 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus {
   outline: none;
   border-color: var(--magenta-600);
 }
-.plan-options { display: flex; flex-direction: column; gap: 12px; }
-.plan-option {
+.plan-single {
   display: block;
-  border: 2px solid #e2e8f0;
+  border: 2px solid var(--magenta-600);
+  background: var(--magenta-100);
   border-radius: 14px;
-  padding: 14px 16px;
-  cursor: pointer;
-  position: relative;
+  padding: 16px 18px;
 }
-.plan-option input { position: absolute; top: 16px; left: 16px; }
-.plan-option-text { display: flex; justify-content: space-between; margin-left: 26px; font-size: 15px; }
-.plan-option-text strong { color: var(--purple-900); }
-.plan-option-text span { color: var(--purple-900); font-weight: 800; }
-.plan-option small { display: block; margin-left: 26px; color: #64748b; margin-top: 4px; }
-.plan-option:has(input:checked),
-.plan-option.is-selected { border-color: var(--magenta-600); background: var(--magenta-100); }
+.plan-single strong { color: var(--purple-900); font-size: 15px; }
+.plan-single span { color: var(--purple-900); font-weight: 800; float: right; font-size: 15px; }
+.plan-single small { display: block; color: #64748b; margin-top: 4px; clear: both; }
 .secure-note { text-align: center; font-size: 13px; color: #64748b; margin-top: 14px; }
 
 /* ===== FAQ ===== */
