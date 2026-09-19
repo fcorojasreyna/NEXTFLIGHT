@@ -1,6 +1,5 @@
-// Payment Link de Stripe (modo prueba) para el pago completo de $697 USD.
-// Cuando pases a modo real, reemplaza esta URL por el Payment Link de tu cuenta live.
-const STRIPE_LINK = "https://buy.stripe.com/test_28E6ozbm6ci35uZfcr73G00";
+// Payment Link de Stripe en MODO REAL para el pago completo de $697 USD.
+const STRIPE_LINK = "https://buy.stripe.com/fZu5kvbm6gyj5uZ3tJ73G05";
 
 // URL de tu Google Apps Script (Implementar > Nueva implementación > Aplicación web).
 const SHEETS_WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbxCOH7l9Jm8ANwemjeffM8H0Fnk7MTtaOWDo6Qt88DM-G_lvfpizSpmeb4rLx99K16D/exec";
